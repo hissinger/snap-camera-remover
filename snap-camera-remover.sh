@@ -16,3 +16,5 @@ rm -rf /Library/CoreMediaIO/Plug-Ins/DAL/SnapCamera.plugin
 launchctl unload -w /Library/LaunchDaemons/com.snap.SnapCameraRemover.plist
 rm /Library/LaunchDaemons/com.snap.SnapCameraRemover.plist
 launchctl remove com.snap.SnapCameraRemover
+
+rm -fr '/Applications/Snap Camera.app'
