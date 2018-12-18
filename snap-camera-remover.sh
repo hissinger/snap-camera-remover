@@ -1,6 +1,6 @@
 #!/bin/bash
 
-currentHome=/Users/hissinger
+currentHome=/Users/foo
 currentUser=`echo $currentHome | cut -d'/' -f 3`
 currentUid=`id -u $currentUser`
 
